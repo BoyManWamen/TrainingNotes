@@ -1,0 +1,54 @@
+Stack:
+Memory Management:
+
+The stack is a region of memory that manages function calls and local variables.
+LIFO Principle:
+
+Operates on the Last In, First Out principle, meaning the last item added is the first to be removed.
+Function Calls:
+
+Each function call creates a stack frame, containing local variables and the return address.
+Fast Access:
+
+Memory allocation and deallocation are fast because the stack follows a predictable and orderly structure.
+Limited Size:
+
+The size of the stack is usually limited, and exceeding this limit results in a stack overflow.
+Heap:
+Dynamic Memory:
+
+The heap is a region of memory used for dynamic memory allocation, where data lives beyond the scope of a single function.
+Manual Memory Management:
+
+Requires manual memory allocation and deallocation using functions like malloc and free in languages like C.
+Variable Size:
+
+Memory on the heap can be dynamically allocated and resized, providing flexibility for data structures.
+Reference Access:
+
+Access to heap memory is typically through pointers, and improper use can lead to memory leaks or fragmentation.
+Garbage Collection:
+
+In some languages (e.g., Java, Python), garbage collection automatically reclaims unused memory on the heap.
+Connection between Stack and Heap:
+Function Call Execution:
+
+When a function is called, its local variables are allocated on the stack.
+If a function allocates memory dynamically (e.g., using malloc), that memory is allocated on the heap.
+Passing Data:
+
+Pointers to heap-allocated memory can be passed between functions via the stack.
+The actual data in the heap remains persistent until explicitly deallocated.
+Lifetime of Data:
+
+Data on the stack has a limited lifetime (within the scope of a function).
+Data on the heap persists until explicitly deallocated, providing a longer lifetime.
+Common Usage:
+
+The stack is suitable for managing local variables and function calls with predictable lifetimes.
+The heap is used for dynamic data structures, like linked lists and trees, where the size is not known at compile time.
+Balancing Act:
+
+Efficient programs often balance the use of the stack and heap, leveraging the strengths of each.
+Stack for fast, predictable allocation, and heap for dynamic, flexible storage.
+Understanding the relationship between the stack and heap is crucial for effective memory management in programming. Balancing their usage optimally contributes to writing efficient and reliable code.
