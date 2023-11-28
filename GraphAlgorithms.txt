@@ -1,0 +1,81 @@
+Graph Basics:
+Definition:
+
+A graph is a collection of nodes (vertices) and edges connecting pairs of nodes.
+Graphs can be directed (edges have a direction) or undirected.
+Components:
+
+Vertices (Nodes): Entities in the graph.
+Edges: Connections between vertices.
+Types of Graphs:
+
+Directed Graph (Digraph): Edges have a direction.
+Undirected Graph: Edges do not have a direction.
+Weighted Graph: Edges have weights/costs.
+Connected Graph: A path exists between every pair of vertices.
+Graph Representation:
+Adjacency Matrix:
+
+A 2D array representing connections between vertices.
+Efficient for dense graphs but consumes more space.
+Adjacency List:
+
+A collection of lists or arrays where each list represents the neighbors of a vertex.
+Efficient for sparse graphs.
+Graph Traversal:
+Breadth-First Search (BFS):
+
+Explore all vertices at the current level before moving on to the next level.
+Uses a queue data structure.
+Depth-First Search (DFS):
+
+Explore as far as possible along each branch before backtracking.
+Uses a stack or recursion.
+Shortest Path Algorithms:
+Dijkstra's Algorithm:
+
+Finds the shortest path from a source vertex to all other vertices in a weighted graph.
+Uses a priority queue or min-heap.
+Bellman-Ford Algorithm:
+
+Finds the shortest path from a source vertex to all other vertices, even with negative weights.
+Handles graphs with negative-weight cycles.
+Minimum Spanning Tree Algorithms:
+Prim's Algorithm:
+
+Builds a minimum spanning tree by adding edges one at a time.
+Starts from an arbitrary node.
+Kruskal's Algorithm:
+
+Builds a minimum spanning tree by adding edges in ascending order of weight.
+Suitable for sparse graphs.
+Topological Sorting:
+Topological Sort:
+Orders the vertices in a directed acyclic graph (DAG) such that for every directed edge, the destination vertex comes after the source vertex.
+Used in task scheduling and dependency resolution.
+Applications of Graph Algorithms:
+Network Routing:
+
+Find the most efficient path between two nodes.
+Social Network Analysis:
+
+Identify influencers, analyze connections.
+Computer Networks:
+
+Determine the best route for data transmission.
+Recommendation Systems:
+
+Analyze user-item relationships.
+Circuit Design:
+
+Analyze and optimize electrical circuits.
+Challenges:
+Cycles:
+
+Detecting and handling cycles in graphs.
+Connected Components:
+
+Identifying separate connected portions of a graph.
+Graph Coloring:
+
+Assigning colors to vertices with certain constraints.
