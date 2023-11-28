@@ -1,0 +1,71 @@
+Introduction:
+Definition:
+
+Big O notation is a mathematical notation used to describe the upper bound or worst-case scenario of the running time of an algorithm in terms of its input size.
+Purpose:
+
+Provides a standardized way to express the efficiency of an algorithm and its scalability with increasing input sizes.
+Key Concepts:
+Time Complexity:
+
+Measures the amount of time an algorithm takes to complete as a function of the size of its input.
+Space Complexity:
+
+Measures the amount of memory space an algorithm requires as a function of the size of its input.
+Syntax:
+O(f(n)):
+
+Read as "Big O of f(n)."
+Describes an upper bound on the growth rate of the algorithm's time or space complexity.
+f(n):
+
+Represents a mathematical function of the input size n.
+Common Time Complexities:
+O(1) - Constant Time:
+
+The algorithm's running time remains constant, regardless of the input size.
+Example: Accessing an element in an array using its index.
+O(log n) - Logarithmic Time:
+
+The running time grows logarithmically with the input size.
+Example: Binary search in a sorted array.
+O(n) - Linear Time:
+
+The running time grows linearly with the input size.
+Example: Finding the maximum element in an unsorted array.
+O(n log n) - Linearithmic Time:
+
+Common in algorithms with divide-and-conquer strategies.
+Example: Efficient sorting algorithms like Merge Sort and Heap Sort.
+O(n^2) - Quadratic Time:
+
+The running time grows proportional to the square of the input size.
+Example: Nested loops iterating over a 2D array.
+O(2^n) - Exponential Time:
+
+The running time doubles with each additional input.
+Example: Brute-force algorithms for problems like the Traveling Salesman.
+Practical Considerations:
+Dominant Terms:
+
+Focus on the most significant terms in the expression to determine the overall time complexity.
+Ignore Constants:
+
+In Big O notation, constants are disregarded, as the focus is on the growth rate.
+Best, Average, Worst Case:
+
+Big O notation often describes the worst-case scenario, but sometimes average or best-case complexities are considered.
+Applications:
+Algorithmic Analysis:
+
+Helps compare and choose the most efficient algorithm for a given problem.
+System Design:
+
+Guides the design of scalable and performant software systems.
+Limitations:
+Simplified View:
+
+Big O notation provides an upper bound, but it might not capture the real-world performance in all scenarios.
+Constant Factors:
+
+Ignores constant factors, which can be significant in practical implementations.
