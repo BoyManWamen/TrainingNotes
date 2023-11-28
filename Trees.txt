@@ -1,0 +1,77 @@
+Definition:
+A tree is a hierarchical data structure composed of nodes connected by edges.
+Each node has a value, and zero or more child nodes, with the topmost node called the root.
+Nodes with no children are called leaves.
+Basic Terminology:
+Root:
+
+The topmost node in a tree, serving as the starting point for traversals.
+Node:
+
+Represents an element in the tree, containing data and references to its children.
+Edge:
+
+The connection between nodes, indicating a relationship.
+Parent:
+
+A node that has one or more child nodes.
+Child:
+
+A node directly connected to another node.
+Leaf:
+
+A node with no children.
+Subtree:
+
+A tree formed by a node and its descendants.
+Depth:
+
+The level or distance of a node from the root.
+Height:
+
+The length of the longest path from a node to a leaf.
+Types of Trees:
+Binary Tree:
+
+Each node has at most two children, often referred to as the left child and the right child.
+Binary Search Tree (BST):
+
+A binary tree with the property that the left subtree of a node contains only nodes with values less than the node's value, and the right subtree contains only nodes with values greater than the node's value.
+Balanced Tree:
+
+A tree where the depth of the left and right subtrees of every node differs by no more than one.
+Full Binary Tree:
+
+A binary tree in which every node has either 0 or 2 children.
+Complete Binary Tree:
+
+A binary tree in which all levels, except possibly the last, are completely filled, and all nodes are as left as possible.
+Tree Traversal:
+In-Order:
+
+Traverse left subtree, visit the root, traverse right subtree.
+Applicable to BSTs for ascending order traversal.
+Pre-Order:
+
+Visit the root, traverse left subtree, traverse right subtree.
+Useful for creating a copy of the tree.
+Post-Order:
+
+Traverse left subtree, traverse right subtree, visit the root.
+Useful for deleting or freeing nodes.
+Applications of Trees:
+File Systems:
+
+Represent directory structures.
+Hierarchical Structures:
+
+Organizational charts, family trees.
+Expression Trees:
+
+Represent mathematical expressions.
+Binary Heap:
+
+Efficiently represent priority queues.
+Trie:
+
+Efficient for dictionary-related problems.
