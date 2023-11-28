@@ -1,0 +1,70 @@
+Definition:
+Tensor Basics:
+
+In computer science and mathematics, a tensor is a multi-dimensional array with a specific order, rank, or degree.
+Scalars (0th order), vectors (1st order), matrices (2nd order), and higher-dimensional arrays are all types of tensors.
+Order/Rank:
+
+The order of a tensor refers to the number of dimensions it has.
+A 0th-order tensor is a scalar, a 1st-order tensor is a vector, a 2nd-order tensor is a matrix, and so on.
+Characteristics:
+Data Structure:
+
+Tensors are fundamental data structures used in various fields, including machine learning, physics, computer graphics, and engineering.
+Representation:
+
+Tensors represent multi-dimensional data, making them suitable for handling complex and structured information.
+Types of Tensors:
+Scalar (0th-order Tensor):
+
+A single value, representing a point in space.
+Example: Temperature at a specific point.
+Vector (1st-order Tensor):
+
+An ordered list of values along a single dimension.
+Example: Velocity in three-dimensional space.
+Matrix (2nd-order Tensor):
+
+A two-dimensional array of values.
+Example: 2D image pixels.
+Higher-Order Tensors:
+
+Tensors with three or more dimensions.
+Example: RGB color images represented as 3rd-order tensors.
+Tensor Operations:
+Tensor Addition and Subtraction:
+
+Performed element-wise for tensors of the same order and shape.
+Tensor Multiplication:
+
+Different types of tensor multiplication, including the dot product and tensor product.
+Tensor Contraction:
+
+Reducing the order of a tensor by summing over a pair of indices.
+Applications:
+Machine Learning:
+
+Tensors are the foundational data structure for representing input data, model parameters, and outputs in machine learning algorithms.
+Image Processing:
+
+Images are often represented as tensors, and tensor operations are used for various image processing tasks.
+Physics and Engineering:
+
+Tensors are used to represent physical quantities such as stress, strain, and electric/magnetic fields.
+Deep Learning:
+
+Neural network layers, weights, and activations are often represented as tensors, and tensor operations are fundamental to deep learning computations.
+Libraries and Tools:
+NumPy (Python):
+
+A powerful library for numerical computing in Python, widely used for handling tensors.
+TensorFlow and PyTorch:
+
+Deep learning frameworks that heavily rely on tensor operations for building and training neural networks.
+Challenges and Considerations:
+Dimensionality:
+
+Managing the dimensionality of tensors is crucial, especially when dealing with high-dimensional data.
+Efficient Storage:
+
+Efficient storage and manipulation of large tensors can be challenging, particularly in resource-constrained environments.
