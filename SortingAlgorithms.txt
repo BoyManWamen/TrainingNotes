@@ -1,0 +1,58 @@
+Introduction:
+Sorting algorithms are essential tools in computer science for organizing and arranging data in a specific order. They play a crucial role in various applications, from databases to search algorithms. In this set of student notes, we will explore some fundamental sorting algorithms and their key characteristics.
+
+1. Bubble Sort:
+Basic Idea: Repeatedly step through the list, compare adjacent elements, and swap them if they are in the wrong order.
+
+Time Complexity: O(n^2) in the worst case.
+
+Space Complexity: O(1) - no additional space is required.
+
+Pros and Cons:
+
+Simple implementation.
+Inefficient for large datasets.
+2. Selection Sort:
+Basic Idea: Divide the list into a sorted and an unsorted region. Find the smallest element in the unsorted region and swap it with the first element of the unsorted region.
+
+Time Complexity: O(n^2) in the worst case.
+
+Space Complexity: O(1) - no additional space is required.
+
+Pros and Cons:
+
+Simple and easy to understand.
+Inefficient for large datasets.
+3. Insertion Sort:
+Basic Idea: Build the sorted array one item at a time by repeatedly taking an element from the unsorted part and inserting it into its correct position in the sorted part.
+
+Time Complexity: O(n^2) in the worst case.
+
+Space Complexity: O(1) - no additional space is required.
+
+Pros and Cons:
+
+Efficient for small datasets or nearly sorted datasets.
+Inefficient for large datasets.
+4. Merge Sort:
+Basic Idea: Divide the unsorted list into n sub-lists, each containing one element, and repeatedly merge sub-lists to produce new sorted sub-lists until there is only one sub-list remaining.
+
+Time Complexity: O(n log n) in the worst case.
+
+Space Complexity: O(n) - additional space is required for merging.
+
+Pros and Cons:
+
+Efficient for large datasets.
+Requires additional space for merging.
+5. Quick Sort:
+Basic Idea: Choose a "pivot" element and partition the other elements into two sub-arrays according to whether they are less than or greater than the pivot. Recursively sort the sub-arrays.
+
+Time Complexity: O(n^2) in the worst case, but O(n log n) on average.
+
+Space Complexity: O(log n) - additional space is required for recursion.
+
+Pros and Cons:
+
+Efficient for large datasets.
+In-place sorting.
