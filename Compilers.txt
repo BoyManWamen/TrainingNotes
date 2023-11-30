@@ -1,0 +1,44 @@
+Compilers are software tools that translate high-level programming code written by humans into machine code or an intermediate code that can be executed by a computer's hardware. The process involves several stages, collectively known as the compilation process. Here is an overview of how compilers work:
+
+1. Lexical Analysis:
+Task: Breaks the source code into tokens.
+Components:
+Lexer/Scanner: Reads the source code character by character and groups them into tokens.
+Token: Represents a meaningful unit (e.g., keywords, identifiers, operators).
+2. Syntax Analysis (Parsing):
+Task: Builds a syntax tree or abstract syntax tree (AST) from the tokens.
+Components:
+Parser: Analyzes the structure of the code based on grammar rules.
+Syntax Tree/AST: Represents the hierarchical structure of the code.
+3. Semantic Analysis:
+Task: Checks the code for semantic errors and gathers information about variable types and scope.
+Components:
+Semantic Analyzer: Ensures that the code adheres to the language's semantics.
+Symbol Table: Stores information about variables, functions, and their scope.
+4. Intermediate Code Generation:
+Task: Translates the source code into an intermediate representation.
+Components:
+Intermediate Code Generator: Produces an intermediate code that is independent of the target machine.
+Intermediate Code: Simplified and machine-independent representation.
+5. Code Optimization:
+Task: Improves the intermediate code for better performance.
+Components:
+Optimizer: Applies various optimization techniques, such as constant folding, loop optimization, and dead code elimination.
+6. Code Generation:
+Task: Translates the optimized intermediate code into machine code for a specific target architecture.
+Components:
+Code Generator: Converts the intermediate code into machine code.
+Target Machine Code: Architecture-specific instructions.
+7. Code Linking and Assembly:
+Task: Combines multiple files, resolves references, and produces an executable.
+Components:
+Linker: Combines object files into a single executable.
+Assembler: Converts assembly code into machine code.
+8. Output:
+Task: Generates the final executable file.
+Components:
+Executable: The compiled program ready for execution.
+9. Debugging Information:
+Task: Embeds information for debugging purposes.
+Components:
+Debug Information Generator: Includes data for debugging tools to map machine instructions back to the source code.
