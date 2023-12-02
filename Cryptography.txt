@@ -1,0 +1,66 @@
+Cryptography Student Notes
+1. Introduction to Cryptography:
+Cryptography is the science of secure communication.
+Two main objectives: confidentiality and integrity.
+2. Types of Cryptography:
+a. Symmetric Cryptography:
+- Uses a shared key for both encryption and decryption.
+- Fast but requires secure key exchange.
+
+b. Asymmetric Cryptography:
+- Uses a pair of public and private keys.
+- Slower but provides secure key exchange.
+
+3. Key Concepts:
+a. Encryption:
+- Process of converting plaintext into ciphertext.
+
+b. Decryption:
+- Process of converting ciphertext back to plaintext.
+
+4. Common Algorithms:
+a. Symmetric Algorithms:
+- AES (Advanced Encryption Standard).
+- DES (Data Encryption Standard).
+
+b. Asymmetric Algorithms:
+- RSA (Rivest–Shamir–Adleman).
+- ECC (Elliptic Curve Cryptography).
+
+5. Hash Functions:
+Transform input data into a fixed-size string of characters.
+Used for data integrity and digital signatures.
+Examples: SHA-256, MD5.
+6. Digital Signatures:
+Ensures the authenticity and integrity of a message.
+Combines hashing and asymmetric cryptography.
+7. Public Key Infrastructure (PKI):
+Framework for managing digital keys and certificates.
+Enables secure communication over insecure networks.
+8. Cryptographic Protocols:
+a. SSL/TLS:
+- Securing internet communication.
+
+b. IPsec:
+- Securing Internet Protocol (IP) communications.
+
+9. Cryptanalysis:
+Science of breaking codes and ciphers.
+Analyzing vulnerabilities in cryptographic systems.
+10. Challenges and Considerations:
+a. Key Management:
+- Secure generation, distribution, and storage.
+
+b. Quantum Cryptography:
+- Addressing threats from quantum computers.
+
+11. Applications:
+a. E-commerce:
+- Securing online transactions.
+
+b. Blockchain:
+- Ensuring the security of decentralized systems.
+
+12. Legal and Ethical Implications:
+Compliance with data protection laws.
+Ethical considerations in cryptography research.
