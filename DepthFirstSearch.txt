@@ -1,0 +1,47 @@
+DFS is an algorithm for traversing or searching tree or graph data structures.
+It starts at the root (selecting some arbitrary node as the root in the case of a graph) and explores as far as possible along each branch before backtracking.
+Process:
+Stack Usage:
+
+Utilizes a stack (either explicitly or through recursion) to keep track of the nodes to be visited.
+The last node visited is the one explored next.
+Traversal Order:
+
+Pre-order: Visit the current node before its children.
+In-order: Visit the current node between its left and right children.
+Post-order: Visit the current node after its children.
+
+Applications:
+
+Connected Components: Identifying connected components in an undirected graph.
+Topological Sorting: Ordering vertices in a directed acyclic graph.
+Characteristics:
+Memory Usage:
+
+Can have high memory usage for deep or long paths.
+Recursive implementations may suffer from stack overflow for deep graphs.
+Completeness:
+
+Guarantees to visit every node in the graph or tree.
+Non-Optimal for Shortest Paths:
+
+DFS may not find the shortest path in a weighted graph.
+Pros and Cons:
+Pros:
+
+Simplicity of implementation.
+Requires less memory compared to Breadth-First Search.
+Cons:
+
+May not be optimal for certain problems (e.g., shortest path).
+Not suitable for finding all paths in a graph.
+Tips for Implementation:
+Use of Data Structures:
+
+Implement using a stack (iterative approach) or recursion.
+Visited Nodes:
+
+Keep track of visited nodes to avoid infinite loops.
+Graph Representation:
+
+Choose an appropriate graph representation (adjacency matrix or adjacency list).
