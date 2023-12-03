@@ -1,63 +1,43 @@
 I. Introduction to SQL:
 A. SQL Definition:
-1. SQL (Structured Query Language) is a specialized language for managing and manipulating relational databases.
-2. It is used for defining, querying, updating, and administering databases.
+1. SQL (Structured Query Language) is a domain-specific language used for managing and manipulating relational databases.
+2. Essential for tasks like data retrieval, modification, and database administration.
 
-B. Key Components:
-1. Data Definition Language (DDL): Defines and manages database structure.
-2. Data Manipulation Language (DML): Manipulates data stored in the database.
-3. Data Query Language (DQL): Retrieves data from the database.
-4. Data Control Language (DCL): Manages access and permissions.
+B. Types of SQL Statements:
+1. Data Query Language (DQL): SELECT
+2. Data Definition Language (DDL): CREATE, ALTER, DROP
+3. Data Manipulation Language (DML): INSERT, UPDATE, DELETE
+4. Data Control Language (DCL): GRANT, REVOKE
 
 II. Basic SQL Commands:
 A. SELECT Statement:
-1. Retrieves data from one or more tables.
-2. Basic syntax: SELECT column1, column2 FROM table_name WHERE condition;
+1. Foundation for data retrieval.
+2. Syntax: SELECT column1, column2 FROM table_name WHERE condition;
 
-B. INSERT Statement:
-1. Adds new records to a table.
-2. Basic syntax: INSERT INTO table_name (column1, column2) VALUES (value1, value2);
-
-C. UPDATE Statement:
-1. Modifies existing records in a table.
-2. Basic syntax: UPDATE table_name SET column1 = value1 WHERE condition;
-
-D. DELETE Statement:
-1. Removes records from a table.
-2. Basic syntax: DELETE FROM table_name WHERE condition;
-
-III. Querying Data:
-A. Filtering Data:
+B. Filtering Data:
 1. WHERE clause for conditional filtering.
-2. Comparison operators (e.g., =, <>, <, >).
+2. Logical operators (AND, OR, NOT).
 
-B. Sorting Data:
-1. ORDER BY clause for sorting results.
+C. Sorting Data:
+1. ORDER BY clause for arranging results.
 2. ASC (ascending) and DESC (descending) options.
 
-C. Aggregating Data:
-1. Aggregate functions: COUNT, SUM, AVG, MIN, MAX.
-2. GROUP BY clause for grouping results.
-
-D. Joining Tables:
-1. Combining data from multiple tables.
-2. Types of joins: INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL JOIN.
-
-IV. Modifying Database Structure:
+III. Working with Tables:
 A. Creating Tables:
-1. CREATE TABLE statement.
-2. Specifying column names, data types, and constraints.
+1. DDL command: CREATE TABLE.
+2. Define columns, data types, and constraints.
 
 B. Altering Tables:
-1. ALTER TABLE statement for modifying existing tables.
-2. Adding, modifying, or dropping columns.
+1. DDL command: ALTER TABLE.
+2. Add, modify, or drop columns.
 
 C. Dropping Tables:
-1. DROP TABLE statement for removing tables.
+1. DDL command: DROP TABLE.
+2. Removes the entire table.
 
-V. Data Constraints:
+IV. Data Constraints:
 A. PRIMARY KEY:
-1. Uniquely identifies each record in a table.
+1. Uniquely identifies records in a table.
 2. Ensures data integrity.
 
 B. FOREIGN KEY:
@@ -70,15 +50,30 @@ C. UNIQUE Constraint:
 D. NOT NULL Constraint:
 1. Requires a column to have a value.
 
-VI. Advanced SQL Concepts:
-A. Subqueries:
+V. Advanced SQL Concepts:
+A. Joins:
+1. Combining data from multiple tables.
+2. Types: INNER JOIN, LEFT JOIN, RIGHT JOIN.
+
+B. Subqueries:
 1. Nested queries within other queries.
 2. Used for complex filtering and data retrieval.
 
-B. Stored Procedures and Functions:
-1. Precompiled SQL code for repetitive tasks.
+C. Stored Procedures and Functions:
+1. Precompiled SQL code for reuse.
 2. Parameters and return values.
 
+VI. Data Modification:
+A. INSERT Statement:
+1. Adds new records to a table.
+
+B. UPDATE Statement:
+1. Modifies existing records in a table.
+
+C. DELETE Statement:
+1. Removes records from a table.
+
 VII. Security and Permissions:
-A. GRANT and REVOKE statements:
-1. Managing user access and permissions.
+A. GRANT and REVOKE Statements:
+1. Manage user access and permissions.
+2. Enhances database security.
