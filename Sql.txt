@@ -1,0 +1,98 @@
+I. Introduction to SQL:
+A. SQL Definition:
+1. SQL (Structured Query Language) is a domain-specific language used for managing and manipulating relational databases.
+2. Standardized by the American National Standards Institute (ANSI).
+
+B. Purpose:
+1. Querying and retrieving data from databases.
+2. Defining and modifying database structure.
+3. Managing user permissions and security.
+
+II. Basic SQL Commands:
+A. SELECT Statement:
+1. Retrieves data from one or more tables.
+2. Basic syntax: SELECT column1, column2 FROM table_name WHERE condition;
+
+B. INSERT Statement:
+1. Adds new records to a table.
+2. Basic syntax: INSERT INTO table_name (column1, column2) VALUES (value1, value2);
+
+C. UPDATE Statement:
+1. Modifies existing records in a table.
+2. Basic syntax: UPDATE table_name SET column1 = value1 WHERE condition;
+
+D. DELETE Statement:
+1. Removes records from a table.
+2. Basic syntax: DELETE FROM table_name WHERE condition;
+
+III. Querying Data:
+A. Filtering Data:
+1. WHERE clause for conditional filtering.
+2. Comparison operators (e.g., =, <>, <, >).
+
+B. Sorting Data:
+1. ORDER BY clause for sorting results.
+2. ASC (ascending) and DESC (descending) options.
+
+C. Aggregating Data:
+1. Aggregate functions: COUNT, SUM, AVG, MIN, MAX.
+2. GROUP BY clause for grouping results.
+
+D. Joining Tables:
+1. Combining data from multiple tables.
+2. Types of joins: INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL JOIN.
+
+IV. Modifying Database Structure:
+A. Creating Tables:
+1. CREATE TABLE statement.
+2. Specifying column names, data types, and constraints.
+
+B. Altering Tables:
+1. ALTER TABLE statement for modifying existing tables.
+2. Adding, modifying, or dropping columns.
+
+C. Dropping Tables:
+1. DROP TABLE statement for removing tables.
+
+V. Data Constraints:
+A. PRIMARY KEY:
+1. Uniquely identifies each record in a table.
+2. Ensures data integrity.
+
+B. FOREIGN KEY:
+1. Establishes a link between two tables.
+2. Ensures referential integrity.
+
+C. UNIQUE Constraint:
+1. Ensures that values in a column are unique.
+
+D. NOT NULL Constraint:
+1. Requires a column to have a value.
+
+VI. Data Manipulation Language (DML):
+A. Transaction Control:
+1. COMMIT and ROLLBACK statements.
+
+B. Savepoints:
+1. Set and rollback to intermediate points within a transaction.
+
+VII. Views and Indexes:
+A. Creating Views:
+1. Virtual tables based on the result of a SELECT query.
+
+B. Indexes:
+1. Improves the speed of data retrieval operations.
+2. Created using CREATE INDEX statement.
+
+VIII. Advanced SQL Concepts:
+A. Subqueries:
+1. Nested queries within other queries.
+2. Used for complex filtering and data retrieval.
+
+B. Stored Procedures and Functions:
+1. Precompiled SQL code for repetitive tasks.
+2. Parameters and return values.
+
+IX. Security and Permissions:
+A. GRANT and REVOKE statements:
+1. Managing user access and permissions.
