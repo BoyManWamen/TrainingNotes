@@ -1,12 +1,13 @@
 I. Introduction to SQL:
 A. SQL Definition:
-1. SQL (Structured Query Language) is a domain-specific language used for managing and manipulating relational databases.
-2. Standardized by the American National Standards Institute (ANSI).
+1. SQL (Structured Query Language) is a specialized language for managing and manipulating relational databases.
+2. It is used for defining, querying, updating, and administering databases.
 
-B. Purpose:
-1. Querying and retrieving data from databases.
-2. Defining and modifying database structure.
-3. Managing user permissions and security.
+B. Key Components:
+1. Data Definition Language (DDL): Defines and manages database structure.
+2. Data Manipulation Language (DML): Manipulates data stored in the database.
+3. Data Query Language (DQL): Retrieves data from the database.
+4. Data Control Language (DCL): Manages access and permissions.
 
 II. Basic SQL Commands:
 A. SELECT Statement:
@@ -60,31 +61,16 @@ A. PRIMARY KEY:
 2. Ensures data integrity.
 
 B. FOREIGN KEY:
-1. Establishes a link between two tables.
-2. Ensures referential integrity.
+1. Establishes relationships between tables.
+2. Maintains referential integrity.
 
 C. UNIQUE Constraint:
-1. Ensures that values in a column are unique.
+1. Ensures uniqueness of values in a column.
 
 D. NOT NULL Constraint:
 1. Requires a column to have a value.
 
-VI. Data Manipulation Language (DML):
-A. Transaction Control:
-1. COMMIT and ROLLBACK statements.
-
-B. Savepoints:
-1. Set and rollback to intermediate points within a transaction.
-
-VII. Views and Indexes:
-A. Creating Views:
-1. Virtual tables based on the result of a SELECT query.
-
-B. Indexes:
-1. Improves the speed of data retrieval operations.
-2. Created using CREATE INDEX statement.
-
-VIII. Advanced SQL Concepts:
+VI. Advanced SQL Concepts:
 A. Subqueries:
 1. Nested queries within other queries.
 2. Used for complex filtering and data retrieval.
@@ -93,6 +79,6 @@ B. Stored Procedures and Functions:
 1. Precompiled SQL code for repetitive tasks.
 2. Parameters and return values.
 
-IX. Security and Permissions:
+VII. Security and Permissions:
 A. GRANT and REVOKE statements:
 1. Managing user access and permissions.
