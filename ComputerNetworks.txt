@@ -1,0 +1,109 @@
+I. Overview of Computer Networks
+
+A. Definition of Computer Networks
+1. A collection of interconnected devices
+2. Facilitates communication and resource sharing
+
+B. Importance of Computer Networks
+1. Efficient data transfer
+2. Resource sharing (hardware, software, data)
+3. Improved communication
+
+II. Types of Computer Networks
+
+A. Based on Size
+1. Personal Area Network (PAN)
+2. Local Area Network (LAN)
+3. Metropolitan Area Network (MAN)
+4. Wide Area Network (WAN)
+
+B. Based on Connection Method
+1. Point-to-Point
+2. Point-to-Multipoint
+3. Multipoint-to-Multipoint
+
+III. Network Topologies
+
+A. Bus Topology
+1. Single central cable
+2. Nodes connected to the cable
+
+B. Star Topology
+1. Central hub connected to nodes
+2. Nodes communicate through the hub
+
+C. Ring Topology
+1. Circular connection of nodes
+2. Data travels in one direction
+
+D. Mesh Topology
+1. Every node connected to every other node
+2. Redundancy for reliability
+
+E. Hybrid Topology
+1. Combination of two or more topologies
+2. Offers flexibility and scalability
+
+IV. Network Protocols
+
+A. Definition and Purpose
+1. Set of rules for communication
+2. Ensures data integrity and security
+
+B. Common Protocols
+1. TCP/IP (Transmission Control Protocol/Internet Protocol)
+2. HTTP/HTTPS (Hypertext Transfer Protocol/Secure)
+3. FTP (File Transfer Protocol)
+4. DNS (Domain Name System)
+5. DHCP (Dynamic Host Configuration Protocol)
+
+V. OSI Model
+
+A. Seven Layers
+1. Physical Layer
+2. Data Link Layer
+3. Network Layer
+4. Transport Layer
+5. Session Layer
+6. Presentation Layer
+7. Application Layer
+
+B. Functions of Each Layer
+1. Physical Layer - Hardware transmission
+2. Data Link Layer - Framing, error detection
+3. Network Layer - Routing, logical addressing
+4. Transport Layer - End-to-end communication
+5. Session Layer - Establishes, maintains, and terminates connections
+6. Presentation Layer - Data translation, encryption
+7. Application Layer - User interface, network services
+
+VI. Network Devices
+
+A. Router
+1. Connects multiple networks
+2. Routes data between them
+
+B. Switch
+1. Connects devices within a network
+2. Forwards data based on MAC addresses
+
+C. Hub
+1. Basic network connectivity
+2. Broadcasts data to all connected devices
+
+D. Modem
+1. Converts digital signals to analog (for analog transmission)
+
+VII. Network Security
+
+A. Firewalls
+1. Monitors and controls incoming/outgoing network traffic
+2. Prevents unauthorized access
+
+B. Encryption
+1. Converts data into a secure code
+2. Protects data during transmission
+
+C. Authentication
+1. Verifies the identity of users/devices
+2. Ensures only authorized access
