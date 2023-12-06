@@ -1,6 +1,5 @@
 I. Overview of Computer Networks
 
-
 A. Definition of Computer Networks
 1. A collection of interconnected devices
 2. Facilitates communication and resource sharing
