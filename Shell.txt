@@ -1,0 +1,78 @@
+Shell Basics:
+
+Definition:
+
+A shell is a command-line interpreter that provides a user interface for interacting with the operating system. Common shells include Bash (Bourne Again SHell), Zsh, and PowerShell.
+Prompt:
+
+The command prompt is where you enter commands. It often includes information about the user, host, current directory, and more.
+Commands:
+
+Commands are instructions given to the shell. They can be simple, like ls (list files), or complex, involving pipes, redirects, and more.
+File System Navigation:
+
+cd: Change directory
+pwd: Print working directory
+ls: List files and directories
+mkdir: Create a directory
+cp: Copy files or directories
+mv: Move or rename files or directories
+rm: Remove files or directories
+touch: Create an empty file
+File Manipulation:
+
+Text Editors:
+
+Use text editors like nano, vim, or emacs to create and edit files directly from the command line.
+File Viewing:
+
+cat: Concatenate and display file content
+less or more: View files one screen at a time
+head and tail: Display the beginning or end of a file
+Redirection and Pipes:
+
+Redirection:
+
+>: Redirect output to a file (overwrite)
+>>: Redirect output to a file (append)
+<: Redirect input from a file
+Pipes:
+
+|: Pipe command output to another command. Example: command1 | command2
+Variables and Environment:
+
+Variables:
+
+Assign values to variables: variable_name=value
+Access variable value: $variable_name
+Environment Variables:
+
+Predefined variables that affect the behavior of the shell and user environment. Example: $HOME, $PATH, $USER
+Shell Scripting:
+
+Shebang:
+
+Start scripts with a shebang (#!/bin/bash) to specify the interpreter.
+Variables in Scripts:
+
+Use variables to store and retrieve values within scripts.
+Control Structures:
+
+Use if, else, elif, for, and while for control flow.
+Functions:
+
+Define functions to group and reuse code within scripts.
+Command-Line Arguments:
+
+Access arguments passed to a script using $1, $2, etc.
+Exit Codes:
+
+Scripts return exit codes (0 for success, non-zero for failure).
+Permissions and Security:
+
+chmod:
+
+Change file permissions. Example: chmod +x script.sh (make script executable)
+sudo:
+
+Execute commands with superuser privileges.
