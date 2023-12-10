@@ -1,0 +1,64 @@
+Propositional Logic:
+
+Propositions and Variables
+Logical Connectives (AND, OR, NOT)
+Truth Tables
+Implication and Equivalence
+De Morgan's Laws
+Predicate Logic:
+
+Predicates and Quantifiers (Existential and Universal)
+Quantified Statements
+Nested Quantifiers
+Logical Equivalence in Predicate Logic
+Sets and Relations:
+
+Set Operations (Union, Intersection, Complement)
+Cartesian Product
+Relations and Functions
+Equivalence Relations
+Partial Orders and Total Orders
+Boolean Algebra:
+
+Boolean Functions
+Algebraic Laws
+Karnaugh Maps
+Minimization Techniques (SOP and POS)
+Inference Rules and Proofs:
+
+Modus Ponens and Modus Tollens
+Deductive Reasoning
+Mathematical Induction
+Proof by Contradiction
+Formal Languages:
+
+Regular Languages
+Context-Free Languages
+Chomsky Hierarchy
+Grammar and Syntax
+Automata Theory:
+
+Finite Automata
+Pushdown Automata
+Turing Machines
+Decidability and Halting Problem
+Logic Programming:
+
+Prolog and Predicate Logic in Programming
+Horn Clauses
+Unification
+Model Theory:
+
+Structures and Interpretations
+Satisfaction and Validity
+Compactness Theorem
+Modal Logic:
+
+Possible Worlds
+Modal Operators (Necessity and Possibility)
+Temporal Logic
+Boolean Logic in Circuits:
+
+Binary Representation
+Logic Gates (AND, OR, NOT)
+Multiplexers and Demultiplexers
