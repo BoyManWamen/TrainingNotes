@@ -1,0 +1,46 @@
+Node.js Overview:
+
+Definition: Node.js is an open-source, server-side runtime environment built on Chrome's V8 JavaScript engine. It enables the execution of JavaScript code on the server side.
+
+Key Features:
+
+Asynchronous and Event-Driven: Node.js is designed to be non-blocking and event-driven, optimizing handling concurrent operations.
+Single-threaded: It utilizes a single-threaded event loop for managing multiple concurrent connections.
+Cross-platform: Node.js is cross-platform, supporting execution on Windows, macOS, and Linux.
+Node.js Basics:
+
+Installing Node.js:
+
+Download and install Node.js from the official website: https://nodejs.org/
+Verify installation using terminal commands such as node -v and npm -v.
+Creating a Simple Server:
+
+Node.js enables the creation of servers to handle HTTP requests and responses efficiently.
+NPM (Node Package Manager):
+
+Definition: NPM serves as the package manager for Node.js, facilitating the management and installation of third-party packages/modules.
+
+Common NPM Commands:
+
+npm init: Initializes a new Node.js project.
+npm install <package>: Installs a package locally.
+npm install -g <package>: Installs a package globally.
+npm start: Executes the "start" script defined in package.json.
+npm test: Executes the "test" script defined in package.json.
+Express.js:
+
+Definition: Express.js is a minimal and flexible Node.js web application framework, providing a robust set of features for web and mobile applications.
+
+Installing Express:
+
+Express.js can be installed using the command npm install express.
+Creating a Basic Express App:
+
+Express simplifies the process of building web applications and APIs in Node.js.
+Middleware in Express:
+
+Definition: Middleware functions have access to the request, response, and next function in the application’s request-response cycle.
+
+Example Middleware:
+
+Middleware functions, such as logging, can be used to intercept and process requests before reaching the final route handler.
