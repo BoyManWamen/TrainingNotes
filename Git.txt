@@ -1,0 +1,109 @@
+Git Basics:
+Version Control System (VCS):
+
+Git is a distributed version control system used to track changes in source code during software development.
+Allows multiple developers to collaborate on a project.
+Repository:
+
+A repository (repo) is a storage location for a project's files and version history.
+Clone:
+
+To create a local copy of a remote repository: git clone <repository-url>
+Commit:
+
+Save changes to the local repository: git commit -m "Commit message"
+Push:
+
+Upload local changes to a remote repository: git push origin <branch-name>
+Pull:
+
+Fetch and integrate changes from a remote repository: git pull origin <branch-name>
+Branching:
+Create a Branch:
+
+git branch <branch-name> creates a new branch.
+git checkout <branch-name> switches to the specified branch.
+Shortcut: git checkout -b <branch-name> creates and switches to a new branch.
+Merge Branches:
+
+Merge changes from one branch into another: git merge <branch-name>
+Delete a Branch:
+
+Locally: git branch -d <branch-name>
+Remotely: git push origin --delete <branch-name>
+Remote Repositories:
+Add a Remote Repository:
+
+git remote add <remote-name> <repository-url>
+View Remote Repositories:
+
+git remote -v
+Fetch:
+
+Retrieve changes from a remote repository: git fetch <remote-name>
+Remove a Remote:
+
+git remote remove <remote-name>
+Resolving Conflicts:
+Conflict Resolution:
+Conflicts occur when two branches have changes in the same location.
+Manually resolve conflicts in files marked as conflicted.
+After resolving, git add <filename> and then git commit -m "Merge conflict resolved"
+Undoing Changes:
+Discard Changes:
+
+Discard changes in the working directory: git checkout -- <filename>
+Revert Commit:
+
+Create a new commit that undoes a previous commit: git revert <commit-hash>
+Reset Commit:
+
+Move the branch pointer to a previous commit:
+Soft reset: git reset --soft <commit-hash>
+Mixed reset (default): git reset --mixed <commit-hash>
+Hard reset: git reset --hard <commit-hash> (Discards changes)
+Git Log:
+View Commit History:
+git log shows a log of commits.
+git log --oneline for a compact view.
+Git Configuration:
+User Configuration:
+
+Set user name: git config --global user.name "Your Name"
+Set email: git config --global user.email "your@email.com"
+Other Configurations:
+
+git config --global core.editor "editor-name" (e.g., nano, vim)
+git config --global alias.<alias-name> <git-command> (e.g., git config --global alias.st status)
+GitHub:
+GitHub Flow:
+
+Create a branch, add commits, open a pull request, and merge.
+Pull Requests:
+
+Submit changes for review and merge into the main branch.
+Forking:
+
+Create a personal copy of someone else's project: git fork
+Issues:
+
+Track tasks, enhancements, and bugs.
+GitHub Pages:
+
+Host static websites directly from your GitHub repository.
+Best Practices:
+Commit Messages:
+
+Clear, concise, and descriptive.
+Branch Naming:
+
+Use meaningful names: feature/<feature-name>, bugfix/<bug-description>
+Frequent Commits:
+
+Make small, frequent commits to track changes effectively.
+Pull Before Push:
+
+Always pull changes from the remote repository before pushing.
+Use .gitignore:
+
+Specify files and directories to be ignored by Git.
