@@ -1,0 +1,58 @@
+Introduction:
+Kali Linux is a Debian-derived Linux distribution designed for digital forensics and penetration testing.
+Developed and maintained by Offensive Security.
+Contains a vast array of tools for various information security tasks.
+Installation:
+Kali Linux can be installed on a physical machine or as a virtual machine using tools like VirtualBox or VMware.
+The default username is "root," and the password is "toor" during installation.
+Package Management:
+Kali Linux uses the Debian package management system (APT).
+Use apt-get or apt for package installation, updates, and removal.
+Basic Commands:
+Update package list: sudo apt update
+Upgrade installed packages: sudo apt upgrade
+Install a new package: sudo apt install <package-name>
+Remove a package: sudo apt remove <package-name>
+Search for a package: apt search <keyword>
+List installed packages: dpkg --list
+File System:
+Similar to Debian, with the root directory / and common directories like /bin, /etc, /home, etc.
+Configuration files for tools are often found in /etc.
+Networking Tools:
+nmap: Network mapping tool for discovering devices on a network.
+
+Example: nmap -sP 192.168.1.0/24
+Wireshark: Network protocol analyzer.
+
+Example: wireshark
+netcat (nc): Networking utility for reading/writing data across network connections.
+
+Example: nc -vz <target> <port>
+Wireless Tools:
+Aircrack-ng: Suite of tools for auditing wireless networks.
+
+Example: airmon-ng start wlan0
+Reaver: WPS (Wi-Fi Protected Setup) attack tool.
+
+Example: reaver -i mon0 -b <BSSID> -vv
+Web Application Testing:
+Burp Suite: Web application security testing tool.
+
+Example: burpsuite
+OWASP ZAP: Open-source web application security scanner.
+
+Example: zap
+Exploitation Tools:
+Metasploit Framework: Framework for developing, testing, and using exploit code.
+
+Example: msfconsole
+Hydra: Password cracking tool.
+
+Example: hydra -l <username> -P <password-list> <target> <protocol>
+Forensics Tools:
+Autopsy: Digital forensics platform.
+
+Example: autopsy
+Volatility: Memory forensics framework.
+
+Example: volatility -f <memory-dump-file> imageinfo
