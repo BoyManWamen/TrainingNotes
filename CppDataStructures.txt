@@ -1,0 +1,66 @@
+C++ is a versatile programming language that allows developers to implement various data structures. Here's a list of commonly used data structures in C++:
+
+Array:
+
+A fixed-size sequential collection of elements of the same type.
+Vector:
+
+A dynamic array that can resize itself.
+List:
+
+A doubly-linked list or a singly-linked list, which allows for easy insertion and removal of elements.
+Deque (Double-ended queue):
+
+A dynamic array that allows insertion and deletion at both ends.
+Queue:
+
+A data structure that follows the First-In-First-Out (FIFO) principle.
+Stack:
+
+A data structure that follows the Last-In-First-Out (LIFO) principle.
+Set:
+
+A collection of unique elements, typically implemented using trees or hash tables.
+Map:
+
+A collection of key-value pairs, also implemented using trees or hash tables.
+Multiset:
+
+Similar to a set, but allows duplicate elements.
+Multimap:
+
+Similar to a map, but allows multiple key-value pairs with the same key.
+Queue (Priority Queue):
+
+A queue in which elements have priorities, and the element with the highest priority is served before others.
+Stack (Priority Stack):
+
+Similar to a priority queue, but follows the LIFO principle.
+Heap:
+
+A binary heap or a more generalized form, used for priority queues.
+Tree:
+
+Binary Trees, Binary Search Trees (BST), AVL Trees, Red-Black Trees, etc.
+Graph:
+
+A collection of nodes and edges, with various representations such as adjacency matrix or adjacency list.
+Hash Table:
+
+A data structure that implements an associative array abstract data type, a structure that can map keys to values.
+String:
+
+A sequence of characters, often represented as an array or a class in C++.
+Bitset:
+
+A specialized container that holds bits and supports efficient bitwise operations.
+Tuple:
+
+An ordered set of elements, each potentially of a different type.
+Queue (Double-ended queue - std::deque):
+
+Similar to std::queue, but allows insertion and deletion at both ends.
+Forward List:
+
+A singly-linked list, similar to std::list but with one-way links.
+These are just some of the commonly used data structures in C++. Depending on the specific needs of a program, developers may choose the appropriate data structure to optimize performance and meet the requirements of their algorithms.
