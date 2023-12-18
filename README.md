@@ -41,7 +41,7 @@ git clone https://github.com/BoyManWamen/TrainingNotes.git
 
 Move into the project directory.
 ```sh
-cd TrainingNotes
+cd TrainingNotes/Notes
 ```
 
 ## Authors
